@@ -1,0 +1,128 @@
+/* Reset default margin a padding pro všechny elementy */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styl pro tělo stránky */
+body {
+    background-image:url(finish.webp) ;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Délka stránky je minimálně 100% výšky okna */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff9900;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav a:hover {
+    color: #f1f1f1;
+}
+
+/* Hlavní obsah */
+.main-content {
+    position: relative;
+    background-image: url('https://via.placeholder.com/1500x800'); /* Můžeš nahradit vlastní URL */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Tmavší pozadí s průhledností */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6); /* Tmavý podklad pro text */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Zápatí */
+.footer {
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+}
+
+/* Zajištění zápatí na spodní část stránky */
+.footer p {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Zaručuje, že tělo stránky bude mít minimálně výšku okna */
+}
+
+footer {
+    margin-top: auto; /* Tlačí zápatí na spodní část stránky */
+}
