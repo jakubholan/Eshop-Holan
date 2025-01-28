@@ -1,11 +1,9 @@
-/* Reset default margin a padding pro všechny elementy */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Styl pro tělo stránky */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -15,10 +13,9 @@ body {
     min-height: 100vh;
 }
 
-/* Navbar */
 .navbar {
     background-color: #ff9900;
-    padding: 10px 0;
+    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -58,7 +55,6 @@ body {
     color: #f1f1f1;
 }
 
-/* Sekce O nás */
 .about-us {
     background-color: #fff;
     padding: 40px 20px;
@@ -96,7 +92,6 @@ body {
     line-height: 1.6;
 }
 
-/* Zápatí */
 .footer {
     background-color: #ff9900;
     color: white;
@@ -108,7 +103,6 @@ body {
     bottom: 0;
 }
 
-/* Zajištění zápatí na spodní část stránky */
 .footer p {
     margin: 0;
 }
@@ -116,9 +110,9 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Zaručuje, že tělo stránky bude mít minimálně výšku okna */
+    min-height: 100vh; 
 }
 
 footer {
-    margin-top: auto; /* Tlačí zápatí na spodní část stránky */
+    margin-top: auto; 
 }
