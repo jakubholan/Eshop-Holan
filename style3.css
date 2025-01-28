@@ -1,7 +1,6 @@
-/* Navbar */
 .navbar {
     background-color: #ff9900;
-    padding: 10px 0;
+    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -41,7 +40,6 @@
     color: #f1f1f1;
 }
 
-/* Kontakty */
 .contact {
     padding: 40px 20px;
     width: 90%;
@@ -89,7 +87,6 @@
     border-radius: 8px;
 }
 
-/* Zápatí */
 .footer {
     background-color: #ff9900;
     color: white;
@@ -101,7 +98,6 @@
     bottom: 0;
 }
 
-/* Zajištění zápatí na spodní část stránky */
 .footer p {
     margin: 0;
 }
@@ -109,9 +105,10 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Zaručuje, že tělo stránky bude mít minimálně výšku okna */
+    min-height: 100vh; 
+    font-family: Arial, sans-serif;
 }
 
 footer {
-    margin-top: auto; /* Tlačí zápatí na spodní část stránky */
+    margin-top: auto; 
 }
