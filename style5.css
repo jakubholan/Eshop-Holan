@@ -1,7 +1,6 @@
-/* Navbar */
 .navbar {
     background-color: #ff9900;
-    padding: 10px 0;
+    padding: 10px ;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -61,7 +60,6 @@
     margin-bottom: 20px;
 }
 
-/* Seznam produktů */
 .product-list {
     display: flex;
     flex-direction: column;
@@ -104,7 +102,6 @@
     margin: 5px 0;
 }
 
-/* Zápatí */
 .footer {
     background-color: #ff9900;
     color: white;
@@ -116,7 +113,6 @@
     bottom: 0;
 }
 
-/* Zajištění zápatí na spodní část stránky */
 .footer p {
     margin: 0;
 }
@@ -124,9 +120,10 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Zaručuje, že tělo stránky bude mít minimálně výšku okna */
+    min-height: 100vh; 
+    font-family: Arial, sans-serif;
 }
 
 footer {
-    margin-top: auto; /* Tlačí zápatí na spodní část stránky */
+    margin-top: auto; 
 }
